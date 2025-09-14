@@ -14,3 +14,7 @@ my-llm-app/
 ├─ .gitignore
 └─ README.md
 '''
+
+-- cd backend
+export OPENAI_API_KEY="sk-xxxx"   # 或用 .env 加载
+uvicorn main:app --reload --port 8000
